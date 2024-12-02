@@ -3,16 +3,16 @@ body {
   }
   
   h1 {
-    color: rgb(33, 86, 99);
+    color: rgb(140, 183, 194);
     text-align: center;
     text-decoration-line: overline;
     text-decoration-color: rgb(145, 123, 2);
-    font-family: Lucida;
+    font-family: "Monaco";
   }
 
   
   p {
-    color: rgb(33, 86, 99);
+    color: rgb(140, 183, 194);
     font-family: verdana;
     font-size: 20px;
   }
