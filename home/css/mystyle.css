@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(136, 14, 14);
+  }
+  
+  h1 {
+    color: rgb(140, 183, 194);
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(145, 123, 2);
+  }
+
+  
+  p {
+    color: rgb(140, 183, 194);
+    font-family: verdana;
+    font-size: 20px;
+  }
