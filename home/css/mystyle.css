@@ -1,15 +1,14 @@
 body {
-  background-color: rgb(136, 14, 14);
+  background-color: rgb(3, 16, 29);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  
 }
 
 h1 {
   color: rgb(140, 183, 194);
   text-align: center;
-  text-decoration-line: overline;
-  text-decoration-color: rgb(145, 123, 2);
 }
 
 
@@ -22,6 +21,14 @@ p {
   padding: 20px;
   text-align: center;
 }
+.section2 {
+  padding: 20px;
+  text-align: left;
+}
+.section3 {
+  padding: 20px;
+  text-align: right;
+}
 .hero {
   background-color: #f0f8ff;
 }
@@ -30,4 +37,46 @@ p {
 }
 .gallery {
   background-color: #fafad2;
+}
+.custom-button {
+  background-color: rgb(12, 37, 61); /* Green background */
+  border: #4CAF50; /* Remove border */
+  color: rgb(140, 183, 194); /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it inline-block */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+.box {
+width: 1309px;
+height: 30px;
+border: 0px solid #4CAF50; /* Green border */
+padding: 20px; /* Space inside the border */
+text-align: left; /* Center text horizontally */
+display: flex;
+justify-content: left; /* Center text horizontally */
+align-items: center; /* Center text vertically */
+background-color: #0c1d29;
+margin: 0px auto;
+}
+.box2 {
+width: 135px;
+height: 160px;
+border: 5px solid rgb(6, 73, 94); /* Green border */
+padding: 20px; /* Space inside the border */
+text-align: center; /* Center text horizontally */
+display: flex;
+justify-content: center; /* Center text horizontally */
+align-items: center; /* Center text vertically */
+background-color: rgb(3, 16, 29);
+margin: 70px auto;
 }
