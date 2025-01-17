@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="css/images.css">
 <title>Page Title</title>
 </head>
 <body>
@@ -33,17 +33,31 @@
 <div class="section">
     <h1>Gallery Section</h1>
         <p>
-            <button class="custom-button" onclick="toggleImages()">Show Image</button>
-            <div id="imageContainer"></div>
+            <div id="app">
+                <div>
+                  <figure v-for="x in manyFoods">
+                    <img v-bind:src="x.url">
+                    <figcaption>{{ x.name }}</figcaption>
+                  </figure>
+                </div> 
+              </div>
+              
+              <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+              
         </p>
 </div>
 
 </body>
 
+
+
+
 <script 
 location.reload();
 src="js/myScript.js">
 </script>
+
+<script src="js/vue.js"></script>
 
 </body>
 </html>
